@@ -278,7 +278,6 @@ public class ThemeSettingsController extends Controller implements View.OnClickL
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>" +
                             "<br>" +
                             "<a href=\"#p123456789\" class=\"quotelink\">&gt;&gt;123456789</a><br>" +
-                            "http://example.com/" +
                             "<br>" +
                             "Phasellus consequat semper sodales. Donec dolor lectus, aliquet nec mollis vel, rutrum vel enim.");
             Post post = new DefaultPostParser(new CommentParser()).parse(theme, builder, parserCallback);
