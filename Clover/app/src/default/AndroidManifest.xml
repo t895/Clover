@@ -18,6 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application>
         <!-- Note: only difference is the authorities property -->
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="org.floens.chan.fileprovider"
